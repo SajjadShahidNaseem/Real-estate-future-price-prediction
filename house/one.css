@@ -1,0 +1,227 @@
+
+.button {
+  color: Cyan;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+background-color:Cyan;
+color:White;
+}
+
+.column {
+  float: center;
+  width: 30%;
+}
+
+.card {
+  margin: 8px;
+}
+
+.about-section {
+  padding: 30px;
+  text-align: center;
+  color: Cyan;
+}
+
+img {
+  opacity: 0.7;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+.title {
+  color: Red;
+}
+
+.container {
+  position: relative;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  color:Cyan;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  height: 35%;
+}
+
+.con {
+  position: relative;
+}
+
+.con .cont {
+  position: absolute;
+  bottom: 0;
+  color:Cyan;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  height: 100%;
+}
+
+.topnav {
+  background-color: #00CED1;
+  overflow: hidden;
+}
+
+.topnav a {
+float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px;
+  space:20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body {
+  background-color: #White;
+}
+
+h1 {
+color:Cyan;
+}
+
+h2
+{
+ color: Cyan;
+ text-align: center;
+}
+
+textarea {
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); 
+color:Cyan;
+border-color:Cyan;
+}
+
+input {
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); 
+color:Cyan;
+text-align:center;
+border-color:Cyan;
+}
+
+textarea:focus { 
+    border-color: Red;
+    box-shadow: 0 0 10px Red;
+}
+
+input:focus {
+border-color: Red;
+box-shadow: 0 0 10px Red;
+}
+
+ input[type=text], input[type=email], input[type=tel], {
+  margin: 8px;
+  text-align:center;
+  border-color: Cyan;
+  color:Cyan; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+ input[type=email]::placeholder {  
+ text-align: center; 
+} 
+
+input[type=tel]::placeholder {  
+ text-align: center; 
+} 
+
+input[type=text]::placeholder {  
+ text-align: center; 
+} 
+
+ label
+{
+ width: 240px;
+ display:inline-block;
+}
+
+input[type=submit] {
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: Cyan;
+  padding: 10px 30px;
+  border-color: Cyan;
+  cursor: pointer;
+  float: center;
+}
+------------------
+.required {  
+   color: red;
+}
+ 
+.errorMsg {  
+   color: red;
+   padding:2px;
+}
+ 
+.errorBox {  
+   border: 2px solid red;
+}
+
+table {
+   border: 0;
+}
+ 
+td {
+   margin: 0;
+   padding: 12px 10px;
+}
+h2 {
+ color: Cyan;
+ text-align: center;
+}
+ body
+{
+ background-color: White;
+}
+fieldset {
+  color:Cyan;
+  text-align:left;
+  border-color:Cyan;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);  
+  width:700px;
+  height:700px;
+}
+
+select {
+      color: Cyan;
+      background: rgb(0, 0, 0); 
+      background: rgba(0, 0, 0, 0.5); 
+ }
+
+input[type="checkbox"] { 
+  filter: invert(100%) hue-rotate(18deg) brightness(1.7);
+}
+
+input[type="radio"] { 
+  filter: invert(100%) hue-rotate(18deg) brightness(1.7);
+}
